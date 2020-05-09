@@ -1,5 +1,7 @@
 apply plugin: 'com.android.library'
 
+
+
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
@@ -33,14 +35,14 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
 
     //okHttp3网络请求库
-    implementation "com.squareup.okhttp3:okhttp:3.11.0"
+    api "com.squareup.okhttp3:okhttp:3.11.0"
     //Json数据解析库
-    implementation "com.google.code.gson:gson:2.8.5"
+    api "com.google.code.gson:gson:2.8.5"
     //Retrofit网络请求接口化辅助库
-    implementation "com.squareup.retrofit2:retrofit:2.4.0"
-    implementation "com.squareup.retrofit2:converter-gson:2.4.0"
-    implementation "com.squareup.retrofit2:adapter-rxjava2:2.4.0"
+    api "com.squareup.retrofit2:retrofit:2.4.0"
+    api "com.squareup.retrofit2:converter-gson:2.4.0"
+    api "com.squareup.retrofit2:adapter-rxjava2:2.4.0"
     //rxJava多线程订阅模式处理库
-    implementation "io.reactivex.rxjava2:rxjava:2.1.13"
-    implementation "io.reactivex.rxjava2:rxandroid:2.0.2"
+    api "io.reactivex.rxjava2:rxjava:2.1.13"
+    api "io.reactivex.rxjava2:rxandroid:2.0.2"
 }

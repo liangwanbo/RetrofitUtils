@@ -55,7 +55,7 @@ public class AppLication extends Application {
                 //全局超时配置
                 .setWriteTimeout(10)
                 //全局超时配置
-                .setConnectTimeout(10)
+                .setConnectTimeout(5)
                 //全局是否打开请求log日志
                 .setDebug(true)
                 .build();
@@ -64,7 +64,7 @@ public class AppLication extends Application {
         RetrofitTask.getInstance()
                 .init(this)
                 .config()
-                .setBaseUrl("https://www.zzzsyh.com/")
+                .setBaseUrl("你的baseurl")
                 .setOkClient(okHttpClient);
     }
 

@@ -19,10 +19,4 @@ public interface DataApi {
     @POST("cs_user/sendTextMsg")
     Observable<ResponseBody> Yzm(@Query("phone") String phone);
 
-
-
-
-
-
-
 }
