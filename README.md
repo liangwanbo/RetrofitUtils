@@ -21,7 +21,7 @@ allprojects {
 	
 	
 	
-	
+	//在application中
 	 OkHttpClient okHttpClient = new OkHttpConfig
 	 
                 .Builder(this)
@@ -86,7 +86,7 @@ allprojects {
 	
 	
 	
-	
+	//调用，Observer可自己定义也和用ok自带的
 	 RetrofitTask.getInstance()
                 .createApi(DataApi.class)
                 .Yzm("18736033907")
